@@ -1,18 +1,4 @@
-/*
-<!--select all the elements that have the class on slide
-- Use querySelectorAll because theres more than one -> returns a html
-  Collection (similar to an array), where we can select each element with
-  an index
 
-  - Not querySelectorAll for the right arrow because theres only one
-
-  current represents what image/slide we are on (0 by default)
-
-  reset clears all images when we change a slide (to display none)
-  - Reset is called before every image is slide to left or right
-  - Loop through the collection of slides
--->
-*/
 let sliderImages = document.querySelectorAll('.slide');
 let arrowLeft = document.querySelector('#arrow-left');
 let arrowRight = document.querySelector('#arrow-right');
